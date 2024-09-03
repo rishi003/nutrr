@@ -1,0 +1,28 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Poetry virtual environments
+.poetry/
+
+# Ignore local virtual environments
+.venv/
+env/
+venv/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore Docker-related files
+Dockerfile
+.dockerignore
+
+# Ignore version control directories
+.git/
+.gitignore
+
+# Ignore any other unwanted files
+*.log

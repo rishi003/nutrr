@@ -1,0 +1,7 @@
+.MuiStack-root.watermark {
+    display: none !important;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-textPrimary span {
+    color: white !important;
+}
