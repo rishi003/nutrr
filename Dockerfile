@@ -18,4 +18,6 @@ COPY . .
 
 RUN poetry install --with main
 
+EXPOSE 8000
+
 ENTRYPOINT ["poetry", "run", "chainlit", "run", "app.py"]
