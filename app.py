@@ -1,5 +1,5 @@
 import chainlit as cl
-from llm.agent import agent
+from llm.agents import agent
 from typing import Dict, Optional
 from literalai import LiteralClient
 
